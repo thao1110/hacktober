@@ -1,0 +1,53 @@
+html,body{overflow-x:hidden; background-color: #fdeca7;}#warpper{overflow:hidden}
+@font-face{font-family:'iCielGotham-Book';src:url(fonts/iCielGotham-Book.eot?#iefix) format("embedded-opentype"),url(fonts/iCielGotham-Book.woff) format("woff"),url(sfonts/iCielGotham-Book.ttf) format("truetype"),url(fonts/iCielGotham-Book.svg#iCielGotham-Book) format("svg");font-weight:400;font-style:normal}
+#wrapper {width:1000px;margin: 0 auto;}
+.box1{position: relative; width:400px; margin: 0 auto;border-radius: 15px;border-style: solid;border-color:#02455c;box-shadow:-10px 11px 0px 0px rgba(2,69,92,0.4);}
+.box1:hover{background-color: #fff;color:#000;-webkit-text-fill-color:#000;}
+.section1 {background-color: #02455c;border-radius: 10px;display: flex;justify-content: center;align-items: center;flex-direction: column;color:#fff;-webkit-text-fill-color:#fff}
+.section1:hover{background-color: #fff;color:#000;-webkit-text-fill-color:#000 }
+
+.section1 textarea {
+    background-image: -webkit-linear-gradient(left, transparent 10px, transparent 10px), -webkit-linear-gradient(right, transparent 10px, transparent 10px), -webkit-linear-gradient(transparent 30px, #ccc 30px, #ccc 31px, white 31px);
+    background-image: linear-gradient(left, transparent 10px, transparent 10px), linear-gradient(right, transparent 10px, transparent 10px), linear-gradient(white 30px, #ccc 30px, #ccc 31px, white 31px);
+    background-size: 100% 100%, 100% 100%, 100% 31px;
+    resize: none;background-color: rgba(0, 0, 0, 0); border-color: rgba(0, 0, 0, 0);
+    border-radius: 8px;
+    line-height: 31px;
+    font-family: Arial, Helvetica, Sans-serif;
+    padding: 10px;
+    width:80%;
+    margin: 10px;
+    align-self: flex-end;
+}
+.section1 h3 {font-size:35px; margin: 5px 0}
+.icon{border-radius: 50%; border-color:  #02455c;position: absolute;top: 11%;left:-11%;width:50%}
+.icon img {border-radius: 50%;border-color: #02455c;border-style: solid;border-width: 6px;box-shadow:-8px 3px 0px 0px rgba(2,69,92,0.4)}
+.number{background-color: #02455c; color:#fff; border-radius: 50%;display: flex; justify-content: center; align-items: center; width:26px; height:26px }
+
+.box2 {background-color: #fff;padding: 30px; border-radius: 20px;margin-top: 100px;box-shadow:-9px 9px 0px 0px rgba(152,142,100,0.4)}
+.row:first-child{display: flex; justify-content: flex-end}
+.listNumber{display: flex; justify-content: space-around; width:50%}
+.row:last-child{display: flex;align-items: stretch;justify-content: center;margin-top: 10px}
+.row:last-child>div{width:50%}
+.row:last-child>div:first-child{display: flex;flex-direction: column; justify-content: space-around}
+.row:last-child>div:last-child{display: flex;flex-direction: column;}
+.checkBox1{display: flex;justify-content: space-around;padding-bottom: 12px;background-color: #b8c9cc}
+.checkBox1:nth-child(2n) {background-color: #efefef}
+.checkBox1 img{margin-left: 9px}
+.sub-title {padding-top: 13px;padding-bottom: 13px;padding-left: 15px;background-color: #b8c9cc}
+.sub-title:nth-child(2n) {background-color: #efefef}
+
+.box3 {width:500px;margin: 100px auto;text-align: center}
+.section2{ background-color: #fff; border-radius: 15px; border: solid 1px;border-color:#fff; padding: 10px 15px}
+.box3 h3 {font-size: 30px}
+.form{display: flex;flex-direction: row}
+.info {display: flex; flex-direction: column;flex-grow: 0.5;text-align: left}
+.infoInput{display: flex; flex-direction: column;flex-grow: 9.5}
+.info span{ display: block; margin: 5px 0; font-size: 18px; color: #c1272d; font-weight: bold}
+.infoInput input{ border: solid black; border-width: 0 0 1px 0; background-color: unset; margin: 6px 0}
+@media (max-width:576px){
+    /* #wrapper {
+        max-width: 100%;
+        width: unset
+    } */
+}
