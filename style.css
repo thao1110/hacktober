@@ -45,6 +45,11 @@ html,body{overflow-x:hidden; background-color: #fdeca7;}#warpper{overflow:hidden
 .infoInput{display: flex; flex-direction: column;flex-grow: 9.5}
 .info span{ display: block; margin: 5px 0; font-size: 18px; color: #c1272d; font-weight: bold}
 .infoInput input{ border: solid black; border-width: 0 0 1px 0; background-color: unset; margin: 6px 0}
+
+.info2 {display: flex; flex-direction: column;flex-grow: 0.5;text-align: left}
+.info3 {display: flex; flex-direction: column;flex-grow: 0.5;text-align: left}
+.info4 {display: flex; flex-direction: column;flex-grow: 0.5;text-align: left}
+.info5 {display: flex; flex-direction: column;flex-grow: 0.5;text-align: left}
 @media (max-width:576px){
     /* #wrapper {
         max-width: 100%;
